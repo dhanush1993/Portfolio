@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100&display=swap');
+#introCanvas{
+    width: 100%;
+    height: 100%;
+}
+
+.ibmText{
+    font-family: 'IBM Plex Serif', serif;
+    color: white;
+    opacity: 0;
+}

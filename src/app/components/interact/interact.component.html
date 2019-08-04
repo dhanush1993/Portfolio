@@ -1,0 +1,3 @@
+<div class="col questionList" *ngIf='shared.display'>
+    <app-question class="row" [question]='question' *ngFor='let question of questions' style="margin-bottom: 10px;" (provideAnswer) = "provideAnswer($event)"></app-question>
+</div>

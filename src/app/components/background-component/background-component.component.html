@@ -1,0 +1,9 @@
+<div #creditText id="creditText" class="position-fixed ibmText" style="width: 100%; height: 100%; top: 0px; left: 0px; z-index: 10;">
+        <div *ngIf="displayCredit" class="row" style="display: flex; align-items: center; justify-content: center; height: 50%;">
+            <div style="font-size: 32px; text-align: center; max-width: 50%; align-self: flex-end;">{{title1}}</div>
+        </div>
+        <div *ngIf="displayCredit" style="display: flex; align-items: center; justify-content: center; height: 50%;">
+            <div style="font-size: 48px; text-align: center; max-width: 50%; align-self: flex-start">{{title2}}</div>
+        </div>
+    </div>
+<canvas #renderCanvas id="renderCanvas"></canvas>
